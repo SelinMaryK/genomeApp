@@ -60,8 +60,11 @@ class Home extends Component{
     }
 
     render(){
-        const rowHeight=280;
-        
+        const {error } = this.state;
+        const rowHeight=300;
+        if(error.noData){
+            return <h2>Something went wrong..!!</h2>
+        }
         return(
         <div>
             <Header searchResult={this.searchResult}></Header>

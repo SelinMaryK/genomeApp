@@ -8,9 +8,9 @@ import Home from './views/Home';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-          <Route exact path="/" component={Home}></Route>
-      </Switch>
+      
+          <Route path="/" component={Home}></Route>
+      
     </BrowserRouter>
   );
 }
