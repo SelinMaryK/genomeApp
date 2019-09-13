@@ -1,0 +1,62 @@
+
+.gnome-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height:300px;
+}
+.gnome-card{
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    height: 250px;
+    width:50%;
+    background-position: center;
+    margin:0 auto;
+    background: #e0dbdb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.gnome-card-column{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+}
+.gnome-card-image{
+    
+    margin:0 auto;  
+    position: relative;
+}
+
+.gnome-card-image img{
+    height: 230px;
+    width:230px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.gnome-details{
+    font-size: small;
+    margin: 3px 0;
+    font-weight: 500;
+}
+
+.gnome-details-label{
+    font-weight:bold;
+    font-size: small;
+}
+.gnome-card-image h5{
+    margin: 10px 0;
+}
+
+.gnome-name{
+    font-size: medium;
+    font-weight: bold;
+}
