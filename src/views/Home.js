@@ -61,7 +61,7 @@ class Home extends Component{
 
     render(){
         const {error } = this.state;
-        const rowHeight=300;
+        const rowHeight=450;
         if(error.noData){
             return <h2>Something went wrong..!!</h2>
         }

@@ -6,13 +6,10 @@
     height:300px;
 }
 .gnome-card{
-    /*justify-content: center;*/
-    /*text-align: center;*/
-    height: 250px;
     width:50%;
     background-position: center;
     margin:0 auto;
-    background: #e0dbdb;
+    background: #eee;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -33,14 +30,12 @@
 }
 
 .gnome-card-image img{
-    height: 230px;
-    width:230px;
+    height: 300px;
+    width:300px;
     max-height: 100%;
     max-width: 100%;
     border-radius: 5px;
 }
-
-
 
 .gnome-details{
     font-size: small;
